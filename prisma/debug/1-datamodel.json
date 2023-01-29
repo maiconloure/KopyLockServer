@@ -73,8 +73,8 @@
             "isId": false,
             "isReadOnly": false,
             "hasDefaultValue": false,
-            "type": "HabitWeekDay",
-            "relationName": "HabitToHabitWeekDay",
+            "type": "HabitWeekDays",
+            "relationName": "HabitToHabitWeekDays",
             "relationFromFields": [],
             "relationToFields": [],
             "isGenerated": false,
@@ -87,7 +87,7 @@
         "isGenerated": false
       },
       {
-        "name": "HabitWeekDay",
+        "name": "HabitWeekDays",
         "dbName": "habit_week_days",
         "fields": [
           {
@@ -143,7 +143,7 @@
             "isReadOnly": false,
             "hasDefaultValue": false,
             "type": "Habit",
-            "relationName": "HabitToHabitWeekDay",
+            "relationName": "HabitToHabitWeekDays",
             "relationFromFields": [
               "habit_id"
             ],
